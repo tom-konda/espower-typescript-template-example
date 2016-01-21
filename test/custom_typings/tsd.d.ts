@@ -1,0 +1,1 @@
+/// <reference path="hoge/hoge.d.ts" />
