@@ -4,14 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha --require ./test/espower-ts-loader.js test/**.ts"
   },
   "keywords": [],
   "author": "tom-konda",
   "license": "MIT",
   "devDependencies": {
     "espower-typescript": "^3.0.0",
-    "mocha": "^2.3.4",
     "power-assert": "^1.2.0"
   }
 }
