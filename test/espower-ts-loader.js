@@ -21,7 +21,7 @@ if (tsconfigPath) {
 
 require('espower-typescript')({
     // directory where match starts with
-    cwd: cwd,
+    cwd: tsconfigPath,
 
     // glob pattern using minimatch module
     pattern: 'test/**/*.ts',
